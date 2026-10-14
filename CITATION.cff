@@ -24,8 +24,6 @@ keywords:
 license: CC0-1.0
 date-released: 2026-10-14
 version: "1.0.0"
-# After Zenodo mints a DOI for the first release, add it here:
-# doi: 10.5281/zenodo.XXXXXXX
-# url and repository-code added once the canonical repo URL is final:
-# url: "https://github.com/<owner>/<repo>"
-# repository-code: "https://github.com/<owner>/<repo>"
+doi: 10.5281/zenodo.23355671
+url: "https://github.com/VelumSpiritus/Deliberate_line"
+repository-code: "https://github.com/VelumSpiritus/Deliberate_line"

@@ -11,9 +11,7 @@ anyone can check every step. The wrong turns that had to be corrected are kept i
 worth trusting where it survived the test built to kill it. *Not investment advice; a description of
 what the record shows.*
 
-<!-- After Zenodo archives the first release, add the DOI badge here:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23355671.svg)](https://doi.org/10.5281/zenodo.23355671)
 
 ---
 
@@ -94,6 +92,6 @@ was the point.
 
 This repository is the canonical home. Permanent and citable mirrors:
 
-- **Archive / DOI:** Zenodo — _(link added after first release)_
+- **Archive / DOI:** [10.5281/zenodo.23355671](https://doi.org/10.5281/zenodo.23355671) (Zenodo — always resolves to the latest version)
 - **Reader:** arkrising — _(link added once hosted)_
 - **Announcement:** Substack — _(link added at publish)_
