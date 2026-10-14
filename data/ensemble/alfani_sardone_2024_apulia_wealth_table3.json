@@ -1,0 +1,80 @@
+{
+ "series": "wealth distribution, Apulia (Kingdom of Naples), 1550-1750 - Table 3",
+ "unit": "percent of total wealth (shares); Gini 0-1",
+ "source": "Alfani, Guido & Sardone, Sergio (2024), 'Long-term trends in income and wealth inequality in southern Italy. The Kingdom of Naples (Apulia), sixteenth to eighteenth centuries', World Inequality Lab Working Paper 2024/21 (HAL halshs-04753512v1); also Explorations in Economic History 2025, DOI 10.1016/j.eeh.2024.101646",
+ "retrieved_via": "Vigil's native web hand (site/vigil/native_web_hand.VigilNativeWeb over reach_web) -> https://shs.hal.science/halshs-04753512v1/document, after widening the reach's TLS trust with certifi (HAL's issuer was absent from the machine's default store)",
+ "retrieved_at": "2026-09-20 ~14:25 local",
+ "pdf_sha256": "6c3b97239bf62b895903ebbc04d8642504711df36c35277627b4f3eeedf0babc",
+ "pdf_bytes": 1575802,
+ "table": "Table 3. The distribution of wealth in Apulia, with or without the propertyless, 1550-1750 (deciles D1-D10, Top5, Top1)",
+ "propertyless_excluded": [
+  {
+   "year": 1550,
+   "gini": 0.663,
+   "top10_share": 57.2,
+   "top5_share": 46.9,
+   "top1_share": 24.4,
+   "note": "tentative: rural areas only"
+  },
+  {
+   "year": 1600,
+   "gini": 0.751,
+   "top10_share": 66.4,
+   "top5_share": 52.6,
+   "top1_share": 27.4
+  },
+  {
+   "year": 1650,
+   "gini": 0.752,
+   "top10_share": 67.1,
+   "top5_share": 54.6,
+   "top1_share": 29.7
+  },
+  {
+   "year": 1700,
+   "gini": 0.775,
+   "top10_share": 70.0,
+   "top5_share": 57.8,
+   "top1_share": 31.4
+  },
+  {
+   "year": 1750,
+   "gini": 0.799,
+   "top10_share": 72.8,
+   "top5_share": 61.5,
+   "top1_share": 35.3
+  }
+ ],
+ "propertyless_included": [
+  {
+   "year": 1600,
+   "gini": 0.785,
+   "top10_share": 68.9,
+   "top5_share": 55.8,
+   "top1_share": 29.9
+  },
+  {
+   "year": 1650,
+   "gini": 0.792,
+   "top10_share": 70.1,
+   "top5_share": 58.4,
+   "top1_share": 32.3
+  },
+  {
+   "year": 1700,
+   "gini": 0.822,
+   "top10_share": 73.9,
+   "top5_share": 62.1,
+   "top1_share": 34.9
+  },
+  {
+   "year": 1750,
+   "gini": 0.861,
+   "top10_share": 78.4,
+   "top5_share": 67.3,
+   "top1_share": 40.4
+  }
+ ],
+ "place_in_the_composite": "Apulia is ONE of the four pre-unification states averaged into Alfani's 'Italy' top-10% series (Alfani 2023 Stone WP 74, Fig. 2.1a; the others: Sabaudian State - Alfani 2015 JEH; Florentine State - Alfani & Ammannati 2017; Republic of Venice - Alfani & Di Tullio 2019). It is the primary tabulated series for that state; the composite's own table remains in Alfani 2021 (JEL, closed).",
+ "reading_against_the_cached_summary": "the VoxEU-derived cache reads 64% at ~1650 and 82% at 1810 for 'Europe'/Italy; Apulia's primary table reads 67.1 (1650, propertyless excluded) / 70.1 (included) rising to 72.8 / 78.4 by 1750 - consistent in direction and level with the summary's mid-points; the 1550 anchor (57.2) is tentative by the authors' own note"
+}

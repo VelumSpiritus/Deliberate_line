@@ -1,0 +1,18 @@
+{
+ "figure": "labor's share of income falling (Deliberate Line Sec.3) — the REPRODUCIBLE series behind the ILO's grounded $2.4T global counterfactual",
+ "series": {
+  "W270RE1A156NBEA": {
+   "desc": "Compensation of employees as a share of gross domestic income (US, BEA) — labor's share of income, 49.3% (1948) -> 42.7% (2024)",
+   "sha256": "fb37a905476935d986490d20c1f627f66917aa92e032b26de467c3fabd96a209",
+   "bytes": 1265
+  },
+  "LABSHPUSA156NRUG": {
+   "desc": "Share of labour compensation in GDP at current national prices (US, Penn World Table) — 0.628 (1950) -> 0.568 (2023)",
+   "sha256": "2bfafcc0c16f2a7a6623123adba8de39e52e6a480825274f3688e1609922fccb",
+   "bytes": 2180
+  }
+ },
+ "retrieved_via": "site/vigil/native_web_hand over reach_web (FRED csv, fetches cleanly like the paper's other FRED series)",
+ "retrieved_at": "2026-09-20T20:12",
+ "note": "the ILO $2.4T is the global counterfactual (grounded in ilo_labour_income_share_2024.json + page sha); these FRED US series make the DIRECTIONAL claim ('labor's share falling') reproducible in number. The global ILOSTAT series (SDG 10.4.1) stays the named raw source; its bulk/SDMX endpoint returned 0 bytes to the plain hand and is the one owed fetch."
+}
