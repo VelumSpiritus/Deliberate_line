@@ -1,0 +1,20 @@
+{
+  "dataset": "us_income_inequality_pre1913_lindert_williamson",
+  "provenance": {
+    "source": "Lindert & Williamson, 'American Incomes 1774-1860', NBER WP 18396 (2012); extended in 'Unequal Gains: American Growth and Inequality since 1700' (Princeton, 2016)",
+    "url": "https://www.nber.org/system/files/working_papers/w18396/w18396.pdf",
+    "pdf_sha256": "182ac3610821bbe75e8066bb4b0868876c0237b2803a709d74be6729da454996",
+    "extracted": "transcribed from the paper's Tables 6-7 and the summary passage (sec. IV); exact-stated figures quoted in-text",
+    "note": "Pre-1913 US income inequality, read straight as a set fact. It sits BEHIND the WID top-1% floor (1913) used in sec 3d, carrying the pyramid back through the antebellum rise. Geography labelled per row; slaves-in/out labelled. No imported null.",
+    "exact_stated": true
+  },
+  "observations": [
+    {"geography": "US 13 colonies (incl. slaves)", "year": 1774, "gini": 0.437, "top1_share": 7.1, "basis": "Table 6, all households incl. slaves"},
+    {"geography": "US 13 colonies (free only)", "year": 1774, "gini": 0.400, "top1_share": 6.1, "basis": "Table 6, free households"},
+    {"geography": "US original-13 eastern seaboard", "year": 1774, "gini": 0.40, "top1_share": 7.1, "basis": "Table 6, seaboard aggregate (the 1860-comparable geography)"},
+    {"geography": "US original-13 eastern seaboard", "year": 1860, "gini": 0.53, "top1_share": 10.0, "basis": "Table 7, seaboard aggregate (vs 1774 0.40/7.1)"},
+    {"geography": "US South Atlantic (free households)", "year": 1774, "gini": 0.33, "top1_share": 6.3, "basis": "sec IV passage"},
+    {"geography": "US South Atlantic (free households)", "year": 1860, "gini": 0.51, "top1_share": 10.1, "basis": "sec IV passage"}
+  ],
+  "bridge_to_wid": "WID US top-1% before-tax share picks up at 1913 (~18%), peaks 22.3% in 1928 (sec 3d). LW shows the climb already underway 1774->1860 (top-1% ~7->10%), so the current pyramid's rise is continuous with the antebellum one, not born at 1913."
+}

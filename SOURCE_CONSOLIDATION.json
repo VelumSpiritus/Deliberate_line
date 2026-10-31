@@ -1,0 +1,37 @@
+{
+  "schema": "source-consolidation-v1",
+  "source_repository": "https://github.com/VelumSpiritus/Veritocratic-Economy",
+  "source_commit": "700040f7d2d95fef4cb24ab82b9e82028ed4ca02",
+  "source_doi": "10.5281/zenodo.23682389",
+  "continuing_repository": "https://github.com/VelumSpiritus/Deliberate_line",
+  "continuing_theory": "VERITOCRATIC_ECONOMY.md",
+  "source_files": [
+    {
+      "source_path": "README.md",
+      "source_sha256": "23e047b1cb49bd10352a1145a6322e87fd6bb6d562ca210836c339806bfd745d",
+      "treatment": "Continuing entry point is the Deliberate Line README and VERITOCRATIC_ECONOMY.md"
+    },
+    {
+      "source_path": "the_question_and_its_answer.md",
+      "source_sha256": "2eeb6f5b167dd36d3f8a147083de6e227ffb215427478dc1f9080bc6ba543f07",
+      "treatment": "Part I superseded by the current Deliberate Line; Part II consolidated into VERITOCRATIC_ECONOMY.md"
+    },
+    {
+      "source_path": "property_without_private.md",
+      "source_sha256": "af0dd55322dc87ed3dc83bf4dc62a0a3fad111956b623b6ae8c5fd3a6db78647",
+      "treatment": "Preserved as historical research in the source archive; its legal and implementation claims are not assumptions of the current accounting model"
+    },
+    {
+      "source_path": "the_written_law.md",
+      "source_sha256": "d93d91bd2d17ed86c55badef8a2f1003d857c9fb28b08a54ad1d67406e35c03d",
+      "treatment": "Preserved as the historical project-governance draft; relevant economic administration rules carried into VERITOCRATIC_ECONOMY.md"
+    }
+  ],
+  "accounting_correction": "Common and attributable portions sum to one pool; contribution weights apply to the attributable portion.",
+  "historical_snapshot": {
+    "path": "history/veritocratic-economy-700040f.zip",
+    "sha256": "43b498bc3eeed995eb8ccb926a37b38c7c311b1a4e40302f4851ab2ea8e06d18",
+    "original_files": 7,
+    "verification": "Each original file matches the source SHA256; additional history note labels the snapshot."
+  }
+}

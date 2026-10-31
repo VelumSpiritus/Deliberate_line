@@ -1,0 +1,46 @@
+{
+  "series": "top_10pct_wealth_share_europe",
+  "unit": "percent_of_total_wealth",
+  "source": "Alfani, Guido (2017), 'Europe's rich since 1300', VoxEU/CEPR column, 15 Jan 2017",
+  "underlying": "EINITE project (Alfani 2015, 2017; Alfani & Ryckbosch 2016; Alfani & Ammannati 2017); Piketty (2014) for post-1800. Alfani series = average of the Sabaudian State, the Florentine State, and the Kingdom of Naples (Apulia).",
+  "retrieved_via": "Wayback Machine snapshot",
+  "retrieved_url": "http://web.archive.org/web/20220525202109/https://voxeu.org/article/europe-s-rich-1300",
+  "points": [
+    {
+      "year": 1300,
+      "share": 64,
+      "basis": "derived: 'share today is about the same as immediately before the Black Death'; today(2010)=64"
+    },
+    {
+      "year": 1450,
+      "share": 47,
+      "basis": "derived: post-plague the top 10% lost 15-20 points (from ~64) -> ~44-49; midpoint"
+    },
+    {
+      "year": 1650,
+      "share": 64,
+      "basis": "stated: recovered the pre-Black-Death quota in the second half of the 17th century"
+    },
+    {
+      "year": 1800,
+      "share": 75,
+      "basis": "stated: in Italian pre-unification states in 1800 the top 10% owned 70-80%; midpoint"
+    },
+    {
+      "year": 1810,
+      "share": 82,
+      "basis": "stated (exact): Piketty (2014) - richest 10% of Europeans owned 82% in 1810"
+    },
+    {
+      "year": 1910,
+      "share": 90,
+      "basis": "stated (exact): the peak of the top-10% share"
+    },
+    {
+      "year": 2010,
+      "share": 64,
+      "basis": "stated (exact): reached 64% in 2010, growing again since ~1950"
+    }
+  ],
+  "shape_note": "Black-Death dip then near-continuous rise 1450->1910 peak 90%; fell after 1910, rising again since ~1950."
+}

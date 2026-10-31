@@ -1,0 +1,27 @@
+{
+  "dataset": "pre_industrial_inequality_milanovic_lindert_williamson",
+  "provenance": {
+    "source": "Milanovic, Lindert & Williamson, 'Measuring Ancient Inequality', NBER WP 13550 (2007); published as 'Pre-Industrial Inequality', Economic Journal 121 (2011)",
+    "url": "https://www.nber.org/system/files/working_papers/w13550/w13550.pdf",
+    "pdf_sha256": "1ee2c1b66c56eaaa85aaa039040f7f82663f9dab65ffb2d1e4afcf9f4c28ab94",
+    "extracted": "transcribed from Table 2 (inequality measures) and Table 3 (top-1% shares); cross-checked actual/IPF == printed extraction ratio (Rome 39.4/52.8=74.6%~75)",
+    "note": "extraction ratio = actual Gini (Gini2 where available, else Gini1) / maximum-feasible Gini (IPF), MLW's own construct — a set fact read straight, not an imported null. Values >100% reflect estimation beyond the frontier (flagged by authors, notably Nueva Espana, Moghul India, Bihar, British India).",
+    "exact_stated": true
+  },
+  "societies": [
+    {"society": "Roman Empire", "year": 14, "gini": 39.4, "gini_kind": "Gini2", "ipf_max": 52.8, "extraction_pct_s400": 75, "extraction_pct_s300": 61, "top1_share": 16.1},
+    {"society": "Byzantium", "year": 1000, "gini": 41.1, "gini_kind": "Gini2", "ipf_max": 43.6, "extraction_pct_s400": 94, "extraction_pct_s300": 71, "top1_share": 30.6},
+    {"society": "Holland", "year": 1561, "gini": 56.0, "gini_kind": "Gini1", "ipf_max": 64.5, "extraction_pct_s400": 87, "extraction_pct_s300": 76, "top1_share": null},
+    {"society": "England/Wales", "year": 1688, "gini": 44.9, "gini_kind": "Gini1", "ipf_max": 71.7, "extraction_pct_s400": 62, "extraction_pct_s300": 57, "top1_share": 8.7},
+    {"society": "Holland", "year": 1732, "gini": 63.0, "gini_kind": "Gini1", "ipf_max": 80.3, "extraction_pct_s400": 78, "extraction_pct_s300": 74, "top1_share": null},
+    {"society": "Old Castile", "year": 1752, "gini": 52.3, "gini_kind": "Gini1", "ipf_max": 46.3, "extraction_pct_s400": 113, "extraction_pct_s300": 88, "top1_share": 7.0},
+    {"society": "Moghul India", "year": 1750, "gini": 38.5, "gini_kind": "Gini1", "ipf_max": 24.5, "extraction_pct_s400": 200, "extraction_pct_s300": 113, "top1_share": 15.0},
+    {"society": "Nueva Espana", "year": 1790, "gini": 63.5, "gini_kind": "Gini1", "ipf_max": 47.0, "extraction_pct_s400": 135, "extraction_pct_s300": 105, "top1_share": 21.1},
+    {"society": "Bihar (India)", "year": 1807, "gini": 31.1, "gini_kind": "Gini1", "ipf_max": 35.5, "extraction_pct_s400": 135, "extraction_pct_s300": 77, "top1_share": 11.5},
+    {"society": "England/Wales", "year": 1801, "gini": 51.2, "gini_kind": "Gini1", "ipf_max": 80.0, "extraction_pct_s400": 64, "extraction_pct_s300": 61, "top1_share": 8.9},
+    {"society": "Kingdom of Naples", "year": 1811, "gini": 28.1, "gini_kind": "Gini1", "ipf_max": 46.8, "extraction_pct_s400": 61, "extraction_pct_s300": 47, "top1_share": 14.3},
+    {"society": "Brazil", "year": 1872, "gini": 38.7, "gini_kind": "Gini1", "ipf_max": 44.5, "extraction_pct_s400": 97, "extraction_pct_s300": 74, "top1_share": 11.2},
+    {"society": "China", "year": 1880, "gini": 23.9, "gini_kind": "Gini1", "ipf_max": 25.9, "extraction_pct_s400": 95, "extraction_pct_s300": 55, "top1_share": 21.3},
+    {"society": "British India", "year": 1947, "gini": 48.2, "gini_kind": "Gini1", "ipf_max": 35.5, "extraction_pct_s400": 141, "extraction_pct_s300": 97, "top1_share": 14.0}
+  ]
+}

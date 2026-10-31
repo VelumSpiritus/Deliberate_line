@@ -1,0 +1,3 @@
+# Reproducing the figures needs only these two. data.py itself is pure standard library.
+numpy>=1.24
+matplotlib>=3.7

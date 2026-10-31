@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor / backup snapshots
+*.bak.*
+
+# NOTE: figures/*.png ARE committed — the Markdown edition displays three of them by relative path
+# (deliberate_line.png, forward_line.png, migrating_seat.png). The draw_*.py scripts regenerate them
+# from the pinned data; the committed copies are what GitHub renders in the .md.

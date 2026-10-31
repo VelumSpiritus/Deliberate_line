@@ -1,0 +1,30 @@
+{
+  "schema": "supporting-inputs-v1",
+  "inputs": [
+    {
+      "file": "wid_top1_beforetax_owid.csv",
+      "sha256": "cfbf51674a28787a9b0d7a5c2fe97abf448eb8e04d2f00f0de28274664677f68",
+      "source_url": "https://ourworldindata.org/grapher/incomes-of-the-richest.csv?quantile=richest_1pct&welfare_type=before_tax&csvType=full",
+      "note": "Retained research input; original retrieval timestamp not recorded in this publication manifest."
+    },
+    {
+      "file": "wikidata_polity_durations.json",
+      "sha256": "8f1c9276406bb546acbc7ef75a81fab13c7198444046e4a1f1cb081781589d8b",
+      "source_url": "https://query.wikidata.org/sparql",
+      "note": "Retained research input; original retrieval timestamp not recorded in this publication manifest.",
+      "query": "SELECT ?item ?itemLabel ?start ?end WHERE { VALUES ?type { wd:Q48349 wd:Q164950 } ?item wdt:P31 ?type ; wdt:P571 ?start ; wdt:P576 ?end . SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" . } }"
+    },
+    {
+      "file": "mlw_pre_industrial_inequality.json",
+      "sha256": "9b6d709a99749688647571a2c6db723843fb5d64d61c5bf83d3b0aa8c3df2a1c",
+      "source_url": "https://www.nber.org/system/files/working_papers/w13550/w13550.pdf",
+      "note": "Retained research input; original retrieval timestamp not recorded in this publication manifest."
+    },
+    {
+      "file": "lindert_williamson_us_preindustrial.json",
+      "sha256": "e4f92869061446e4cd5a24f35030c5cc56b03bfe9dbe5955c3fbfb73f0976506",
+      "source_url": "https://www.nber.org/system/files/working_papers/w18396/w18396.pdf",
+      "note": "Retained research input; original retrieval timestamp not recorded in this publication manifest."
+    }
+  ]
+}

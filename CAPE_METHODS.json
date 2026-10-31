@@ -1,0 +1,42 @@
+{
+  "schema": "cape-method-reconstruction-v1",
+  "dated_CAPE_input": {
+    "date": "2026-09-18",
+    "cape": 40.94,
+    "source_url": "https://www.multpl.com/shiller-pe/table/by-month",
+    "retrieved_at": "2026-09-20T16:15",
+    "file_sha256": "c9e8217f16bf3ed36b9f22cfd780243b659ba4894b97fad2c40f6f3c32c000db",
+    "as_of": "2026-10-31",
+    "age_days": 43
+  },
+  "reconstruction": {
+    "method": "OLS annualized real log-price return on log(CAPE)",
+    "formula": "log(P_real[t+H]/P_real[t])/(H/12) = intercept + slope*log(CAPE[t])",
+    "return_conversion": "exp(fitted annual log return)-1",
+    "includes_dividends": false,
+    "horizon_months": 120,
+    "valid_history": [
+      "1881-01-01",
+      "2023-09-01"
+    ],
+    "matured_start_dates": [
+      "1881-01-01",
+      "2013-09-01"
+    ],
+    "n_overlapping_months": 1593,
+    "model": {
+      "intercept": 0.14512771539390232,
+      "slope": -0.04530523091906404,
+      "correlation": -0.34819264036917796
+    },
+    "target_cape": 41.0,
+    "reconstructed_real_price_CAGR_pct": -2.2851384734573927,
+    "CAPE_at_least_30": {
+      "n": 57,
+      "median_real_price_CAGR_pct": -2.9590003728235255
+    },
+    "data_sha256": "ed6a0faf1864d60161806b594b45a2642f6149f59b26b3d7b32c2ce38758dc6f",
+    "scope": "Descriptive historical OLS reconstruction; overlapping observations, no fitted uncertainty interval and no causal forecast certification.",
+    "original_range": "Original rough -1% to -2.5% statement preserved and corroborated by the explicit fit; not a fitted confidence interval."
+  }
+}
