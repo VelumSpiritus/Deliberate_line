@@ -1,0 +1,39 @@
+{
+ "retrieved_at": "2026-09-20T16:21",
+ "via": "FRED csv download",
+ "series": {
+  "TFAABSHNO": {
+   "bytes": 6213,
+   "sha256": "932bde8aff6578cff2df1dc898ead1aa210ac09da18953b262c6cef690a3d3c1",
+   "first": "1945-10-01,647977",
+   "last": "2026-04-01,153487265",
+   "title": "Households and nonprofits; total financial assets, level ($mn) \u2014 Z.1"
+  },
+  "BOGZ1FL894090005Q": {
+   "bytes": 6345,
+   "sha256": "9e16ba26f40e7551ac28a0e548dae1e826784595efabd058bb84f3a93c2caf58",
+   "first": "1945-10-01,1168509",
+   "last": "2026-04-01,447635296",
+   "title": "All sectors; total financial assets, level ($mn) \u2014 Z.1"
+  },
+  "NCBEILQ027S": {
+   "bytes": 6028,
+   "sha256": "c217c084ca5bcb27f5ecf466848ce1eebeee9ffdcc18193012c463974337619d",
+   "first": "1945-10-01,103694",
+   "last": "2026-04-01,83050847",
+   "title": "Nonfinancial corporate business; corporate equities; liability, level ($mn) \u2014 Z.1 (market value of equity)"
+  },
+  "A362RC1Q027SBEA": {
+   "title": "Net domestic product (nominal, $bn SAAR) \u2014 GDP minus total consumption of fixed capital; verified GDP-CFC arithmetic 1947 and 2026",
+   "bytes": 6387,
+   "sha256": "42b3e029ff726d3c1d221c3091bd4faf85fd166e90d0f076973f5ee5628733bc"
+  },
+  "GDPDEF": {
+   "title": "GDP implicit price deflator (to form real NDP)"
+  },
+  "A024RC1Q027SBEA": {
+   "title": "Consumption of fixed capital: PRIVATE (nominal) \u2014 gathered while probing; NOT NDP; kept for provenance, unused"
+  }
+ },
+ "note": "A024RX1Q020SBEA was first fetched under the belief it was real NDP; its FRED title reads 'Real consumption of fixed capital: Private' \u2014 removed. Real NDP is formed as A362RC1Q027SBEA / GDPDEF."
+}

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "The Deliberate Line: Taking a Goodhart"
+message: "If you use or cite this work, the citation below is offered — but the work is public domain (CC0) and asks nothing of you."
+type: dataset
+authors:
+  - name: "VelumSpiritus"
+abstract: >-
+  A sourced, reproducible account of what moves the US stock market over the
+  long run: a single ~8%/yr log-linear trend the S&P 500 has held for 56 years,
+  a reliable reversion when price runs above it, and a ~2%/yr wedge by which the
+  market outruns the economy — read as a deliberate line preserved by a single
+  seat rather than an emergent market property. Built entirely from public data
+  (FRED, Yahoo Finance) with the reproduction code included.
+keywords:
+  - stock market
+  - S&P 500
+  - log-linear trend
+  - mean reversion
+  - Goodhart's law
+  - inequality
+  - reproducible research
+license: CC0-1.0
+date-released: 2026-10-14
+version: "1.0.0"
+doi: 10.5281/zenodo.23355671
+url: "https://github.com/VelumSpiritus/Deliberate_line"
+repository-code: "https://github.com/VelumSpiritus/Deliberate_line"
